@@ -1,0 +1,245 @@
+body {
+    font-family: "Playfair Display", serif;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(141, 141, 141, 0.10);
+    z-index: 1000;
+}
+
+header img {
+    width: 30px;
+}
+
+header button {
+    background-color: #B67D43;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    margin-right: 80px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+main h1 {
+    color: #B67D43;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+main h1 span {
+    color: grey;
+}
+
+main p {
+    margin-bottom: 30px;
+    color: #7D7D7D;
+}
+
+div.select-menu {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+select {
+    width: 30%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+div button {
+    background-color: #B67D43;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    padding: 8px 40px;
+    cursor: pointer;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+p#para {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 50px 60px 50px 60px;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 10px;
+    color: #B67D43;
+    font-weight: 700;
+}
+
+p#para span {
+   font-size: 80px; 
+   font-weight: 600;   
+   color: black;
+}
+
+p#total_client {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px 60px 50px 60px;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 10px;
+    color: #B67D43;
+    font-weight: 700;
+}
+
+
+p#total_client span {
+    font-size: 80px; 
+    font-weight: 600; 
+    color: black;
+}
+
+p#annule {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px 60px 50px 60px;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 10px;
+    color: #B67D43;
+    font-weight: 700;
+}
+
+p#annule span {
+    font-size: 80px; 
+    font-weight: 600; 
+    color: black;
+}
+
+.card {
+    zoom: 0.8;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.card p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.price {
+    font-weight: bold;
+    color: green;
+}
+
+
+h1, h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f1f1f1;
+    font-weight: 600;
+}
+
+table td {
+    font-weight: 400;
+    color: #666;
+}
+
+button[type="submit"] {
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    padding: 8px 40px;
+    cursor: pointer;
+}
+
+select {
+    padding: 8px;
+    border-radius: 4px;
+    width: 150px;
+}
+
+input[type="hidden"] {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    select {
+        width: 100%;
+    }
+}

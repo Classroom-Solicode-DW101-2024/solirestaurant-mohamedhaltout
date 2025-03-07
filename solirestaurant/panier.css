@@ -1,0 +1,110 @@
+body {
+    font-family: "Playfair Display", serif;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #B67D43;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+table {
+    width: 90%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: 700;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity button {
+    background-color: #B67D43;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+button {
+    background-color: #B67D43;
+    border: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.price, .total_price {
+    font-weight: bold;
+    color: black;
+}
+
+h3 {
+    margin-top: 20px;
+    color: black;
+    font-size: 24px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+
+    td img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .quantity button {
+        padding: 3px 7px;
+    }
+}
